@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./datatypes.css">
+</head>
+<body>
+    
+  <h1> In Js we have 2 types of  data types </h1>
+  <ol>
+    <li>primitive data types (also called as immutable)</li>
+    <li>non-primitive data types(also called as mutable)</li>
+  </ol> 
+
+  <h2>1.primitive data types :-</h2>
+  <ol class="border">
+    <li>Numbers (All numeric values comes under numbers) <br> eg. 1,-1,0,0.1,2/3-----</li>
+    <li>String (All alphabetical values / any values enclosed within double/single quotes comes under string. <br>
+        eg. name = "kalyani" )</li>
+    <li>Boolean (Boolean values takes either true/false) <br>
+    eg. var isMarried=true</li>
+    <li>Null <br> eg. var name=null</li>
+    <li>Undefined (when we declare variable without initializing will comes under undefined. )<br>
+    eg. var name;</li>
+    <li>Symbol (symbols in Js are unique in nature.no symbol is equal to another). <br>
+    eg. var mySym = symbol('hello')
+        var mySym1 = symbol('hello') <br>
+    if(mysym == mysym1){
+        console.log(true)}. though both are same we get false</li>
+    <li>Bigint ( We use this to store large numbers. To use bigint we need to include 'n'
+        to the number) <br> eg. var num = 46789865n</li>
+  </ol>
+  <h2>2.Non primitive data types</h2>
+  <ol class="border">
+    <li>Array ( It is a special variable which can hold more than one value at a time). <br>
+    eg. var array =['a','b']
+    <h3>we have 2 types of arrays</h3>
+    <ol>
+      <li>Homogeneous array (collection of elements which are of same type). <br>
+    eg. var arr = ['a','b','c']</li>
+      <li>Heterogeneous array (collection of elements which are not same data type). <br>
+    eg. var arr = ['a',10,true,null,{}]</li>
+    </ol>
+    </li> <br>
+    <h3>(we can write array in 2 ways) <br>
+    eg. 1 : var arr = ['a','b','c'] <br>
+eg.2 : var fruit = new Array('apple','banana') </h3>
+ 
+<h3>Array which contains multiple objects is known as complex array. <br>
+eg. var det=[{name:'kal',sal:50000},{name:'bav',sal:100000}]</h3>
+    <li>Object (It is a entity which has some properties & prop are in the form of key & value pairs). <br>
+    eg. object{key : value}</li>
+    <h3>we can create object in 2 ways. <br>
+    eg1 . var details={name:'kalyani'} <br>
+wg2. var car= new Object(); <br></h3>
+    <li>Date (It is used to get the dates). <br>
+    eg. var date = new Date(). <br>
+we can get date based on milliseconds. when we give mil sec ,date starts from 1970-Jan-1 5:30am</li>
+    <li>Math</li>
+    <li>Function (function is a block of code designed to perform particular task.we need to call the function 
+        to use it.)
+    <h3>Types of functions</h3>
+<ol>
+    <li>Named functions ( function which contains name)</li>
+    <li>Anonymous func (func without name.In order to call this func we need to assign this func to variable.
+        & call the func with this var)</li>
+    <li>Function expression (The process of assigning func to var is called as functional expression) </li>
+    <li>Arrow func (It is used to simplify the code.similar to anonymous func.we can write this func in single line.
+        It is Es6 feature)</li>
+    <li>IIFE (It is called immediately after function description.It takes two parameters. one is for description
+        & second is to call the function.It call itself)</li>
+</ol></li>
+  </ol>
+
+
+
+    <script src="./datatypes.js"></script>
+</body>
+</html>
