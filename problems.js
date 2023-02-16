@@ -118,7 +118,7 @@ function str(st){
 console.log(str("python"));
 console.log(str("thon"));
 
-// ----------------------- 12. Even numbers from 0 -10
+// ----------------------- 12. Even numbers from 0 -10 -----------------------------------
 
 for(let num = 0; num<=10 ; num%2==0){
 console.log(num)
