@@ -76,7 +76,6 @@ console.log(fruits);
 // ------------------------  11. reverse -----------------------
 
 console.log(fruits.reverse());
-console.log();
 
 // It arranges the values in reverse order .
 
@@ -98,7 +97,7 @@ console.log('This is ' + value);
 
 var num1 = [1,2,3,4,5]
 num1.forEach((item,index)=>{
-    console.log('(' + index + ')' +'this is' + item );   // method 1
+    console.log('(' + index + ') ' + 'this is ' + item );   // method 1
 })
 
 // -----------
